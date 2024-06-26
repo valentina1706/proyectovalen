@@ -17,11 +17,13 @@ import { MatSelectModule } from '@angular/material/select';
 
 // COMPONENTE DE ANGULAR
 import { FormsModule } from '@angular/forms';
+import { RemerasComponent } from './producto/pages/remeras/remeras.component';
 
 @NgModule({
   declarations: [
     RegistroComponent,
-    IniciosesionComponent
+    IniciosesionComponent,
+    RemerasComponent
   ],
   imports: [
     CommonModule,

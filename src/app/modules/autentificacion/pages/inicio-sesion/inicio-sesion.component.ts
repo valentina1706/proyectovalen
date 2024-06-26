@@ -6,8 +6,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-iniciosesion',
-  templateUrl: './iniciosesion.component.html',
-  styleUrls: ['./iniciosesion.component.css']
+  templateUrl: './inicio-sesion.component.html',
+  styleUrls: ['./inicio-sesion.component.css']
 })
 export class IniciosesionComponent {
   hide = true;
