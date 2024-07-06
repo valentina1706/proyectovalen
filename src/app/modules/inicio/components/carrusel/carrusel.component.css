@@ -1,0 +1,9 @@
+.carousel-item {
+    height: 100vh; /* Altura igual a la altura total de la ventana */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%; /* Ajustar la imagen al tamaño del carrusel */
+    width: 100%; /* Ajustar la imagen al ancho del carrusel */
+  }

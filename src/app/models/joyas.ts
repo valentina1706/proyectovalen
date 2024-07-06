@@ -1,7 +1,7 @@
-export interface ropa {
+export interface joyas {
     id: string;
     nombre: string;
-    talle: number;
+    tipo: string;
     color: string;
     imagen: string;
     alt: string;

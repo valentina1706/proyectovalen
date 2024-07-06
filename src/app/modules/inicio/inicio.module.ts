@@ -7,22 +7,34 @@ import { InicioRoutingModule } from './inicio-routing.module';
 import { InicioComponent } from './pages/inicio/inicio.component';
 
 // COMPONENTES LOCALES
-import { CardComponent } from './components/cards/cards.component';
+import { CardsComponent} from './components/cards/cards.component';
 
 // COMPONENTES DE MATERIAL
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { CarruselComponent } from './components/carrusel/carrusel.component';
+
 
 @NgModule({
   declarations: [
     InicioComponent,
-    CardComponent
+    CardsComponent,
+    CarruselComponent
   ],
   imports: [
     CommonModule,
     InicioRoutingModule,
     MatButtonModule,
     MatCardModule
+  ],
+  exports: [
+    InicioComponent,
+    CardsComponent,
+    MatButtonModule,
+    MatCardModule,
+    CardsComponent,
+    CarruselComponent
+    
   ]
 })
 export class InicioModule { }

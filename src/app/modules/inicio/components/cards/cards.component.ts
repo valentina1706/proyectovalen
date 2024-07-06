@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { ropa } from 'src/app/models/ropa';
+import { joyas } from 'src/app/models/joyas';
 
 @Component({
   selector: 'app-cards',
@@ -9,32 +9,32 @@ import { ropa } from 'src/app/models/ropa';
 })
 export class CardsComponent {
 // PROPIEDAD PÚBLICA (TIPO: ARRAY)
-public info: ropa[];
+public info: joyas[];
   
 constructor(){
   this.info = [
     {
       id: "",
     nombre: "remera Sol",
-    talle: 2,
+    tipo: "tocado",
     color: "azul",
-    imagen: "https://i0.wp.com/puppis.blog/wp-content/uploads/2022/02/abc-cuidado-de-los-gatos-min.jpg?resize=521%2C346&ssl=1",
+    imagen: "https://fidora.com.mx/wp-content/uploads/2023/09/IMG_0631-scaled.jpg",
     alt: "remera azul Sol",
     },
     {
       id: "",
     nombre: "pantalon Brllitos",
-    talle: 36,
+    tipo: "collar",
     color: "negro",
-    imagen: "https://i0.wp.com/puppis.blog/wp-content/uploads/2022/02/abc-cuidado-de-los-gatos-min.jpg?resize=521%2C346&ssl=1",
+    imagen: "https://fidora.com.mx/wp-content/uploads/2023/09/IMG_0650-scaled.jpg",
     alt: "pantalon negro Brillitos",
     },
     {
       id: "",
     nombre: "Campera Vale",
-    talle: 3,
-    color: "azul",
-    imagen: "https://i0.wp.com/puppis.blog/wp-content/uploads/2022/02/abc-cuidado-de-los-gatos-min.jpg?resize=521%2C346&ssl=1",
+    tipo: "corona",
+    color: "negro",
+    imagen: "https://fidora.com.mx/wp-content/uploads/2023/09/IMG_0656-scaled.jpg",
     alt: "Campera azul Vale",
     }
   ]

@@ -1,21 +1,35 @@
 .container{
     display: flex;
     padding: 10px;
-    justify-content: center;
+    justify-content: center; 
+    border-radius: 25px;
+    background-color: rgb(146, 123, 81);
+    margin-bottom: 50px;
+  
 }
 
 h1{
     text-align: center;
+    
 }
 
 .contenido{
+    justify-content: center;
     width: 200px;
     display: inline-block;
     padding: 15px;
     border-radius: 8px;
     margin: 10px;
+    color: aliceblue;
+    height: 200PX;
 }
 
 p{
     padding: 5px;
 }
+
+.card{
+    width: 150px;
+    height: 150px;
+}
+

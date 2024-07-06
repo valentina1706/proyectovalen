@@ -24,6 +24,13 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
     MatButtonModule,
     MatToolbarModule,
     MatMenuModule
+  ],
+  exports:  [
+    NavbarComponent,
+    FooterComponent,
+    
+
   ]
+
 })
 export class SharedModule { }
